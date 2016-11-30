@@ -49,4 +49,8 @@ Questions
 
 So when we want to determine the cost of going over to the next index (ie. going left/right/up/down), we can do tiles[ tile_grid[i][j] ].
 
-The complexity is 
+The complexity is O(E logV). We use a priority queue to represent the frontier, so pushing to frontier takes complexity of O(log V). We push to frontier E times, so the complexity of the entire algorithm is O(E logV).
+
+As N increases, elapsed time and memory usage increase almost exponentially. The biggest difference can be seen between N=500 and N=1000, where elapsed time increased by a factor of 4.5 and memory usage, by 3.8, approximately. 
+
+Douglas (dschmied) did the Dijkstra algorithm. Emily (epark3) and Andrew (apaek1) did the README.
