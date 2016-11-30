@@ -30,6 +30,50 @@ Output
     [(ROW_0, COL_0), ...]
 
 
+Changes to output.txt
+---------------------
+
+Dijkstra's results for input0.txt and input3.txt were the same as output0.txt and output3.txt
+
+In output1
+
+Original: 5 5, 11 10
+
+Cost: 5 5 = g
+
+11 10 = G
+
+Total cost = 1 + 2 = 3
+
+Alternative: 6 4, 12 9
+
+Cost: 6 4 = g
+
+12 9 = G
+
+Total cost = 1 + 2 = 3
+
+
+
+In output2
+
+Original: 2 2, 2 3
+
+Cost: 2 2 = r
+
+2 3 = g
+
+Total cost = 5 + 1 = 6
+
+Alternative: 3 1, 3 2
+
+Cost: 3 1 = h
+
+3 2 = G
+
+Total cost = 4 + 2 = 6
+
+
 Questions
 ---------
 
